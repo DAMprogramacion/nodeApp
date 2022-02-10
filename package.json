@@ -1,0 +1,26 @@
+{
+  "name": "appnode",
+  "version": "1.0.0",
+  "description": "proyecto de node, express, mongo, mongose, jwt, ...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongo",
+    "mongoose",
+    "jwt"
+  ],
+  "author": "Manuel Molino",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "express-validator": "^6.14.0",
+    "mongoose": "^6.2.1"
+  }
+}
