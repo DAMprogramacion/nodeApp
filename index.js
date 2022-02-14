@@ -1,9 +1,7 @@
 const express = require('express')
 require('dotenv').config()
-const { conectar} = require('./database/config')
+const { conectar } = require('./database/config')
 conectar()
-
-
 const auth = require('./rutas/auth')
 
 const app = express()

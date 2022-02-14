@@ -19,4 +19,6 @@ router.post('/registro',
     ],
 registrar)
 
+//creamos la ruta para el login
+
 module.exports = router

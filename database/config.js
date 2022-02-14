@@ -6,7 +6,7 @@ const conectar = async () => {
         console.log('Conectado a la BD')
     } catch (error) {
         console.log('Error de conexión')
-        
+       
     }
     
 }
